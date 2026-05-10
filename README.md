@@ -1,6 +1,11 @@
-# Bruker XRF PPM Plot
+# Bruker XRF PPM Biplot Notebook
 
-An interactive Jupyter notebook for visualizing geochemical data from [Bruker Elemental XRF instruments](https://www.bruker.com/en/products-and-solutions/handheld-instruments/xrf-analyzers.html).
+An interactive Jupyter notebook for visualizing geochemical data produced by [Bruker Elemental XRF instruments](https://www.bruker.com/en/products-and-solutions/handheld-instruments/xrf-analyzers.html).
+
+[![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+## Note
+Not affiliated with Bruker
 
 ## Features
 - Imports Bruker XRF results CSV files
