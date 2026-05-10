@@ -5,6 +5,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/arf-berkeley/bruker-xrf-ppm-plot/main?urlpath=%2Fdoc%2Ftree%2Fplot-ppm.ipynb)
 
 </td>
+<td></td>
 <td>
 
 [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -20,8 +21,8 @@ An interactive Jupyter notebook for visualizing geochemical data produced by [Br
 \* Not affiliated with Bruker Elemental
 
 ## Features
-- Imports Bruker XRF results CSV files
-- Automatically parses data from the most recent calibration block
+- Imports Bruker XRF Results.csv files
+- Automatically parses data from the most recent Methods calibration block
 - Converts Methods calibration weight % to parts per million (PPM) and LOD=0
 - Display the results as a formatted table
 - Provides an interactive biplot with selectable X and Y axes
@@ -54,7 +55,5 @@ For more information about Bruker XRF instruments see the
 - ipywidgets
 - nbformat
 
-## Notes
-- Study CSV file must be in Bruker XRF output format
-- Sources CSV file is optional and used for comparison overlays
-- Below detection limit values (`< LOD`) are replaced with zero
+## Credits
+Created by N. Tripcevich with assistance from Claude 4.6 Sonnet
