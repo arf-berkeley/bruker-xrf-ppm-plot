@@ -16,7 +16,7 @@
 
 # Bruker XRF PPM Biplot Notebook
 
-An interactive Jupyter notebook for visualizing geochemical data produced by [Bruker Elemental XRF instruments](https://www.bruker.com/en/products-and-solutions/handheld-instruments/xrf-analyzers.html)*.
+An interactive Jupyter notebook for visualizing geochemical data produced by [Bruker Elemental XRF instruments](https://www.bruker.com/en/products-and-solutions/elemental-analyzers/handheld-xrf-spectrometers.html)*.
 
 \* Not affiliated with Bruker Elemental
 
@@ -46,7 +46,7 @@ The notebook expects a Bruker XRF Results.csv file with the following characteri
 - Header rows repeated at the start of each calibration Method block
 
 For more information about Bruker XRF instruments see the
-[Bruker XRF Analyzer page](https://www.bruker.com/en/products-and-solutions/handheld-instruments/xrf-analyzers.html).
+[Bruker XRF Analyzer page](https://www.bruker.com/en/products-and-solutions/elemental-analyzers/handheld-xrf-spectrometers.html).
 
 ## Requirements
 - pandas
