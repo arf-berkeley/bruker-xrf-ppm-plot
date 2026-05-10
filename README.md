@@ -5,7 +5,8 @@ An interactive Jupyter notebook for visualizing geochemical data from [Bruker El
 ## Features
 - Imports Bruker XRF results CSV files
 - Automatically parses data from the most recent calibration block
-- Converts Methods calibration weight percent to PPM and LOD=0
+- Converts Methods calibration weight % to parts per million (PPM) and LOD=0
+- Display the results as a formatted table
 - Provides an interactive biplot with selectable X and Y axes
 - Export cleaned data to CSV
 
