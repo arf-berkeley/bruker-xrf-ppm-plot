@@ -1,10 +1,23 @@
+<table>
+<tr>
+<td>
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/arf-berkeley/bruker-xrf-ppm-plot/main?urlpath=%2Fdoc%2Ftree%2Fplot-ppm.ipynb)
+
+</td>
+<td>
+
 [![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+</td>
+</tr>
+</table>
 
 # Bruker XRF PPM Biplot Notebook
 
 An interactive Jupyter notebook for visualizing geochemical data produced by [Bruker Elemental XRF instruments](https://www.bruker.com/en/products-and-solutions/handheld-instruments/xrf-analyzers.html)*.
-* Not affiliated with Bruker Elemental
+
+\* Not affiliated with Bruker Elemental
 
 ## Features
 - Imports Bruker XRF results CSV files
@@ -15,15 +28,19 @@ An interactive Jupyter notebook for visualizing geochemical data produced by [Br
 - Export cleaned data to CSV
 
 ## Usage
-Click the Binder button below to launch the notebook in your browser - no installation required.
+Click the Binder button to launch the notebook in your browser - no installation required.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/arf-berkeley/bruker-xrf-ppm-plot/main?urlpath=%2Fdoc%2Ftree%2Fplot-ppm.ipynb)
+
+The notebook can also run offline provided that a Python kernel such as 
+[Miniconda](https://docs.conda.io/en/latest/miniconda.html) is available locally, 
+along with the required packages listed below.
 
 ## Data Format
 The notebook expects a Bruker XRF Results.csv file with the following characteristics:
 - First column is `File #`
 - Contains a `DateTime` column formatted as `MM-DD-YYYY HH:MM`
-- Element columns in weight percent 
+- Element columns in weight percent
 - Below detection limit values marked as `< LOD`
 - Header rows repeated at the start of each calibration Method block
 
