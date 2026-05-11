@@ -33,16 +33,16 @@ An interactive Jupyter notebook for visualizing geochemical data produced by [Br
 - Export cleaned data to CSV
 
 ## Usage
-Click the Binder button to launch the app in your browser then wait about 30 seconds for launch to complete -- no installation required.
+Click either the Voila or Binder buttons to launch in your browser then wait about 30 seconds for launch to complete -- no installation required.
 
-**App Only**
+**App Only:**
 [![Voila](https://img.shields.io/badge/launch-Voila-blue.svg)](https://mybinder.org/v2/gh/arf-berkeley/bruker-xrf-ppm-plot/main?urlpath=voila%2Frender%2Fplot-ppm-voila.ipynb)
 
-**Notebook Format**
+**Editable Jupyter Notebook:**
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/arf-berkeley/bruker-xrf-ppm-plot/main?urlpath=%2Fdoc%2Ftree%2Fplot-ppm.ipynb)
 
-**Offline**
-The notebook can also run offline provided that a Python kernel such as 
+**Offline Use:**
+The notebook can run offline provided that a Python kernel such as 
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html) is available locally, 
 along with the required packages listed below.
 
