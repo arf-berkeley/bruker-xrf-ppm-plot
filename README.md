@@ -20,7 +20,7 @@
 
 # Bruker XRF PPM Biplot Notebook
 
-An interactive Jupyter notebook for visualizing geochemical data produced by [Bruker Elemental XRF instruments](https://www.bruker.com/en/products-and-solutions/elemental-analyzers/handheld-xrf-spectrometers.html)*.
+Use either an interactive App or a live Jupyter notebook to view geochemical data produced by [Bruker Elemental XRF instruments](https://www.bruker.com/en/products-and-solutions/elemental-analyzers/handheld-xrf-spectrometers.html)*.
 
 \* Not affiliated with Bruker Elemental
 
@@ -35,7 +35,7 @@ An interactive Jupyter notebook for visualizing geochemical data produced by [Br
 ## Usage
 Click either the Voila or Binder buttons to launch in your browser then wait about 30 seconds for launch to complete -- no installation required.
 
-**App Only:**
+**Interactive App Only:**
 [![Voila](https://img.shields.io/badge/launch-Voila-blue.svg)](https://mybinder.org/v2/gh/arf-berkeley/bruker-xrf-ppm-plot/main?urlpath=voila%2Frender%2Fplot-ppm-voila.ipynb)
 
 **Editable Jupyter Notebook:**
