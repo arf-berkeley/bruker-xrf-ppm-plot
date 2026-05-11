@@ -29,7 +29,7 @@ An interactive Jupyter notebook for visualizing geochemical data produced by [Br
 - Export cleaned data to CSV
 
 ## Usage
-Click the Binder button to launch the notebook in your browser (then wait about 30 seconds for launch to complete) -- no installation required.
+Click the Binder button to launch the notebook in your browser then wait about 30 seconds for launch to complete -- no installation required.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/arf-berkeley/bruker-xrf-ppm-plot/main?urlpath=%2Fdoc%2Ftree%2Fplot-ppm.ipynb)
 
