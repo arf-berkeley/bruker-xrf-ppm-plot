@@ -1,6 +1,7 @@
 <table>
 <tr>
 <td>
+
 [![Voila](https://img.shields.io/badge/launch-Voila-blue.svg)](https://mybinder.org/v2/gh/arf-berkeley/bruker-xrf-ppm-plot/main?urlpath=voila%2Frender%2Fplot-ppm-voila.ipynb)
 
 </td>
