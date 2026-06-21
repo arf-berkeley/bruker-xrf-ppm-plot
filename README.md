@@ -18,7 +18,7 @@
 </tr>
 </table>
 
-# Bruker XRF PPM Biplot Notebook
+# XRF PPM Bilot and Ternary Notebook for Bruker Tracer Results
 
 Use either an interactive App or a live Jupyter notebook to view geochemical data produced by [Bruker Elemental XRF instruments](https://www.bruker.com/en/products-and-solutions/elemental-analyzers/handheld-xrf-spectrometers.html)*.
 
@@ -26,11 +26,11 @@ Use either an interactive App or a live Jupyter notebook to view geochemical dat
 
 ## Features
 - Imports Bruker XRF Results.csv files
-- Automatically parses data from the most recent Methods calibration block
-- Converts Methods calibration weight % to parts per million (PPM) and LOD=0
+- Parses data using filter widgets
+- Converts weight % to parts per million (PPM) and LOD=0
 - Display the results as a formatted table
-- Provides an interactive biplot with selectable X and Y axes
-- Export cleaned data to CSV
+- Provides an interactive biplot and ternary plot with selectable X and Y axes
+- Export cleaned and filtered data to CSV
 
 ## Usage
 Click either the Voila or Binder buttons to launch in your browser then wait about 30 seconds for launch to complete -- no installation required.
@@ -47,12 +47,7 @@ The notebook can run offline provided that a Python kernel such as
 along with the required packages listed below.
 
 ## Data Format
-The notebook expects a Bruker XRF Results.csv file with the following characteristics:
-- First column is `File #`
-- Contains a `DateTime` column formatted as `MM-DD-YYYY HH:MM`
-- Element columns in weight percent
-- Below detection limit values marked as `< LOD`
-- Header rows repeated at the start of each calibration Method block
+The notebook expects a Bruker XRF Results.csv file close to the original. Perhaps edit by substituting Application for other Grouping variables if it's redundant with the Method field.
 
 For more information about Bruker XRF instruments see the
 [Bruker XRF Analyzer page](https://www.bruker.com/en/products-and-solutions/elemental-analyzers/handheld-xrf-spectrometers.html).
