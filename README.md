@@ -18,7 +18,7 @@
 </tr>
 </table>
 
-# XRF PPM Bilot and Ternary Notebook for Bruker Tracer Results
+# XRF PPM Biplot and Ternary Plots for Bruker Tracer Application Mode
 
 Use either an interactive App or a live Jupyter notebook to view geochemical data produced by [Bruker Elemental XRF instruments](https://www.bruker.com/en/products-and-solutions/elemental-analyzers/handheld-xrf-spectrometers.html)*.
 
