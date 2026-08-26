@@ -49,7 +49,7 @@ along with the required packages listed below.
 
 ## Data Format
 The notebook expects a Bruker XRF Results.csv file close to the original. Perhaps edit by substituting Application for other Grouping variables if it's redundant with the Method field.
-Sample Bruker.csv file
+Sample [Bruker_results_example.csv](https://raw.githubusercontent.com/arf-berkeley/bruker-xrf-ppm-plot/refs/heads/main/Bruker_results_example.csv) file
 
 For more information about Bruker XRF instruments see the
 [Bruker XRF Analyzer page](https://www.bruker.com/en/products-and-solutions/elemental-analyzers/handheld-xrf-spectrometers.html).
