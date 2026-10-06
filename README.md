@@ -24,6 +24,8 @@ Use either an interactive App or a live Jupyter notebook to view geochemical dat
 
 \* Not affiliated with Bruker Elemental
 
+For plotting data over ellipses of source geochemistry see [the Andean Obsidian Sourcing repository](https://github.com/arf-berkeley/obsidian-andes).
+
 ## Features
 - Imports Bruker XRF Results.csv files
 - Parses data using filter widgets
